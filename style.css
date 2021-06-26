@@ -96,12 +96,27 @@ button {
   color: #e38826;
 }
 
+#btn_sedan:hover {
+  background-color: #e38826;
+  color: white;
+}
+
 #btn_suv {
   color: #006970;
 }
 
+#btn_suv:hover {
+  background-color: #006970;
+  color: white;
+}
+
 #btn_luxury {
   color: #004241;
+}
+
+#btn_luxury:hover {
+  background-color: #004241;
+  color: white;
 }
 
 @media (max-width: 375px) {

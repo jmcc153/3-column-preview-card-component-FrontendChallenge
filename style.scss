@@ -60,14 +60,27 @@ button{
     font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
 }
+
 #btn_sedan{
     color: hsl(31, 77%, 52%);
+}
+#btn_sedan:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
 }
 #btn_suv{
     color: hsl(184, 100%, 22%);
 }
+#btn_suv:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
 #btn_luxury{
     color: hsl(179, 100%, 13%);
+}
+#btn_luxury:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
 }
 
 @media(max-width:375px){
