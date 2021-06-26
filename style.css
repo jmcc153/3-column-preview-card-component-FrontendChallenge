@@ -1,0 +1,129 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20vh;
+  height: 100%;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 15px;
+}
+
+#container h1 {
+  color: #f2f2f2;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#container_sedans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e38826;
+  height: auto;
+  padding: 24px 40px 30px 30px;
+  border-radius: 10px 0 0 10px;
+  height: auto;
+}
+
+#container_suvs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #006970;
+  padding: 24px 30px 24px 40px;
+}
+
+#container_luxury {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #004241;
+  padding: 24px 30px 24px 40px;
+  border-radius: 0 10px 10px 0;
+}
+
+img {
+  width: 3vw;
+}
+
+button {
+  margin-top: 10vh;
+  border-radius: 24px;
+  outline: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Lexend Deca', sans-serif;
+  cursor: pointer;
+}
+
+#btn_sedan {
+  color: #e38826;
+}
+
+#btn_suv {
+  color: #006970;
+}
+
+#btn_luxury {
+  color: #004241;
+}
+
+@media (max-width: 375px) {
+  #container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    width: 75vw;
+  }
+  img {
+    width: 12vw;
+  }
+  #container_sedans {
+    border-bottom-left-radius: 0;
+  }
+  #container_luxury {
+    border-top-right-radius: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
